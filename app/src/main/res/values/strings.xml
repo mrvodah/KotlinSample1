@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kotlin</string>
+    <string name="compose_shortcut_rest">value</string>
+
+    <string name="website">Websites</string>
+    <string name="open_website">Open the Websites</string>
+
+    <string name="lbl_static">Static</string>
+    <string name="lbl_open_static">Open the Static</string>
+
+    <string name="lbl_dynamic">Dynamic</string>
+    <string name="lbl_open_dynamic">Open the Dynamic</string>
+</resources>

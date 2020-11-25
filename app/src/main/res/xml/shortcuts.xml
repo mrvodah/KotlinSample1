@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <shortcut
+        android:icon="@drawable/ic_baseline_brightness_1_24"
+        android:shortcutId="static"
+        android:shortcutShortLabel="@string/lbl_static"
+        android:shortcutLongLabel="@string/lbl_open_static"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.kotlin.StaticActivity"
+            android:targetPackage="com.example.kotlin" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:icon="@drawable/ic_baseline_dynamic_feed_24"
+        android:shortcutId="dynamic"
+        android:shortcutShortLabel="@string/lbl_dynamic"
+        android:shortcutLongLabel="@string/lbl_open_dynamic"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.kotlin.DynamicActivity"
+            android:targetPackage="com.example.kotlin" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+</shortcuts>
