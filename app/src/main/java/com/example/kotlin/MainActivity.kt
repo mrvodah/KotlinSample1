@@ -54,5 +54,7 @@ class MainActivity : AppCompatActivity() {
             .build()
 
         shortcutManager!!.dynamicShortcuts = listOf(shortcut)
+
+        Log.d(TAG, "setupShortcut: nothing special")
     }
 }
